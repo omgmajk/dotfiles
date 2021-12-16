@@ -33,5 +33,6 @@
 
 packadd! dracula
 syntax enable
-let g:dracula_italic = 0
+let g:dracula_italic = 0 " Remove italics from the theme
 colorscheme dracula
+hi Normal guibg=NONE ctermbg=NONE " Transparent background
