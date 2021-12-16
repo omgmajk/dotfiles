@@ -23,6 +23,12 @@
 "set t_ZH=^[[3m
 "set t_ZR=^[[23m
 
+" Local filetypes
+:autocmd FileType html setlocal shiftwidth=2 softtabstop=2 expandtab
+:autocmd FileType javascript setlocal shiftwidth=2 softtabstop=2 expandtab
+:autocmd FileType css setlocal shiftwidth=2 softtabstop=2 expandtab
+
+
 " Theme dracula shit
 
 packadd! dracula
