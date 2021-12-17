@@ -101,4 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias l="lsd -al"
+#alias ccat="pygmentize -g -O bg=dark,style=colorful,linenos=1" # Old highlight
+alias ccat="highlight -O ansi --force" # Change ansi to xterm256 for smoother colors
