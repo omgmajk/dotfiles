@@ -36,3 +36,13 @@ syntax enable
 let g:dracula_italic = 0 " Remove italics from the theme
 colorscheme dracula
 hi Normal guibg=NONE ctermbg=NONE " Transparent background
+
+" Attempt at fixing home/end
+
+map <esc>OH <home>
+cmap <esc>OH <home>
+imap <esc>OH <home>
+map <esc>OF <end>
+cmap <esc>OF <end>
+imap <esc>OF <end>
+
