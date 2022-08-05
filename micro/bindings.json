@@ -1,0 +1,6 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "CtrlUnderscore": "lua:comment.comment",
+    "Alt-w" : "command:set softwrap on",
+    "AltW" : "command:set softwrap off"
+}

@@ -105,3 +105,9 @@ source $ZSH/oh-my-zsh.sh
 alias l="lsd -al"
 #alias ccat="pygmentize -g -O bg=dark,style=colorful,linenos=1" # Old highlight
 alias ccat="highlight -O ansi --force" # Change ansi to xterm256 for smoother colors
+
+# Rust
+source $HOME/.cargo/env
+
+# Nim
+export PATH=/home/majk/.nimble/bin:$PATH
