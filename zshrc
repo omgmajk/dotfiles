@@ -114,3 +114,6 @@ export PATH=/home/majk/.nimble/bin:$PATH
 
 # Local bin
 export PATH=/home/majk/.local/bin:$PATH
+
+# Zig
+export PATH=/opt/zig:$PATH
