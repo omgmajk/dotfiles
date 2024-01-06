@@ -117,3 +117,6 @@ export PATH=/home/majk/.local/bin:$PATH
 
 # Zig
 export PATH=/opt/zig:$PATH
+
+# Intellij
+export PATH=/opt/intellij/bin:$PATH
